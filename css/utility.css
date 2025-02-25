@@ -1,0 +1,49 @@
+.title-lg {
+  font: var(--txt-lg-asap);
+}
+
+.title-md {
+  font: var(--txt-md-asap);
+}
+
+.title-sm {
+  font: var(--txt-sm-asap);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--txt-md-maven);
+}
+
+.text-sm {
+  font: var(--txt-sm-maven);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+
+.grid-flex {
+  display: flex;
+  align-items: center;
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.tags-color {
+  fill: white;
+}
+
+.gap-24 {
+  gap: 24px;
+}

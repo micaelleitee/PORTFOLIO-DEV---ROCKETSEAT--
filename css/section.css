@@ -1,0 +1,50 @@
+#projects {
+  margin-top: 72px;
+}
+
+.header-trabalhos {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-trabalhos p {
+  color: var(--color-red);
+}
+
+.header-trabalhos strong {
+  color: var(--color-gray-600);
+}
+
+.header-trabalhos {
+  margin-bottom: 56px;
+}
+
+.project-card {
+  border-radius: 8px;
+  /* max-width: 330px; */
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+figure {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.text-card {
+  margin-top: 20px;
+}
+
+#projetct-grid {
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1040px;
+  justify-content: center;
+}

@@ -1,10 +1,10 @@
 #info {
   display: flex;
-  /* width: 1040px; */
   padding-top: 120px;
   flex-direction: column;
   justify-self: center;
   align-items: center;
+  gap: 40px;
 }
 
 .header {
@@ -12,18 +12,20 @@
   justify-items: center;
   width: 680px;
   justify-items: center;
-  margin-bottom: 80px;
 }
 .header img {
+  width: 200px;
   padding-bottom: 56px;
 }
 
 #intro {
   height: 100vh;
-  background-image: url(../assets/img/Background_Intro.png);
   background-repeat: no-repeat;
+  background: radial-gradient(#000000, #000000d9, transparent),
+    url(../assets/gif/background.gif);
   width: 100%;
   background-size: cover;
+  object-fit: cover;
   justify-items: center;
   display: flex;
   justify-items: center;
@@ -81,4 +83,3 @@ section p {
   flex-direction: column;
   gap: 8px;
 }
-

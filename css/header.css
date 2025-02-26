@@ -18,7 +18,7 @@
   padding-bottom: 56px;
 }
 
-.intro {
+#intro {
   height: 100vh;
   background-image: url(../assets/img/Background_Intro.png);
   background-repeat: no-repeat;
@@ -33,7 +33,6 @@
 }
 
 section p {
-  margin-bottom: 8px;
   color: var(--color-gray-400);
 }
 
@@ -46,7 +45,7 @@ section p {
   gap: 8px;
 }
 
-.intro > img {
+#intro > img {
   margin-top: 94px;
 }
 
@@ -76,3 +75,10 @@ section p {
   padding: 8px 16px;
   gap: 8px;
 }
+
+.header-trabalhos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+

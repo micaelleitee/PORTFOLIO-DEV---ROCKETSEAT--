@@ -1,5 +1,6 @@
 #projects {
   margin-top: 72px;
+  padding-bottom: 144px;
 }
 
 .header-trabalhos {
@@ -22,7 +23,7 @@
 
 .project-card {
   border-radius: 8px;
-  /* max-width: 330px; */
+  max-width: 330px;
   background-color: var(--color-gray-300);
   overflow: hidden;
 }
@@ -39,12 +40,49 @@ figure {
 }
 
 .text-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin-top: 20px;
 }
 
-#projetct-grid {
-  grid-auto-flow: column;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1040px;
+#projects-grid {
+  grid-template-columns: repeat(3, auto);
   justify-content: center;
+  align-items: center;
+}
+
+figure span {
+  color: var(--color-gray-600);
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 88px 120px 120px 120px;
+  background-color: var(--color-gray-100);
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  width: 280px;
+  height: 155px;
+  border: solid var(--color-gray-200) 2px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.text-service {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-rows: auto;
 }
